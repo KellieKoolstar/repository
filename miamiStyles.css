@@ -107,7 +107,7 @@ ul {
 }
 
 /* mobile adaptation */
-screen @media and (maximum width: 479px) { 
+@media (max-width: 479px) {
     .grid-container {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
