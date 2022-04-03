@@ -104,3 +104,8 @@ ul {
     text-align: left;
     padding-top: 0px;
 }
+
+/* mobile adaptation */
+@media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr);}
+}

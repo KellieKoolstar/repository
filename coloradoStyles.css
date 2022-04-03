@@ -120,3 +120,14 @@ ul {
     text-align: center;
     padding-top: 50px;
 }
+
+/* mobile adaptation */
+img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
+  @media (min-width: 600px) {
+    .grid-container { grid-template-columns: repeat(2, 1fr);}
+}
